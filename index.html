@@ -141,16 +141,14 @@
             </h1>
             <div class="d-flex align-items-center pt-4 animated slideInDown">
               <a
-                href="about.html"
+                href="info.html"
                 class="btn btn-primary py-sm-3 px-3 px-sm-5 me-5"
                 >Meer info</a
               >
               <button
                 type="button"
                 class="btn-play"
-                data-bs-toggle="modal"
-                data-src="https://fb.watch/l04UT8slRQ/"
-                data-bs-target="#videoModal"
+                onclick="window.open('https://fb.watch/l04UT8slRQ/','_blank')"
               >
                 <span></span>
               </button>
@@ -161,14 +159,14 @@
           </div>
         </div>
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-          <img class="img-fluid" src="img/Mazel5.jpg" alt="" />
+          <img class="img-fluid" src="img/Mazel4(2).png" alt="" />
         </div>
       </div>
     </div>
     <!-- Header End -->
 
     <!-- Video Modal Start -->
-    <div
+    <!-- <div
       class="modal modal-video fade"
       id="videoModal"
       tabindex="-1"
@@ -189,21 +187,21 @@
             ></button>
           </div>
           <div class="modal-body">
-            <!-- 16:9 aspect ratio -->
+
             <div class="ratio ratio-16x9">
               <iframe
                 class="embed-responsive-item"
-                src=""
+                src="https://fb.watch/l04UT8slRQ/"
                 id="video"
                 allowfullscreen
-                allowscriptaccess="always"
+                allowscriptaccess="true"
                 allow="autoplay"
               ></iframe>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Video Modal End -->
 
     <!-- About Start -->
@@ -211,7 +209,6 @@
       <div class="container">
         <div class="row g-5">
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <p><span class="text-primary me-2">#</span>Informatie</p>
             <h1 class="display-5 mb-4">
               Wat
               <span class="text-primary">Mazenzele</span> Kermis u kan brengen!
@@ -222,7 +219,8 @@
               nonumy clita sit at, sed sit sanctus dolor eos.
             </p> -->
             <h5 class="mb-3">
-              <i class="far fa-check-circle text-primary me-3"></i>Sfeer
+              <i class="far fa-check-circle text-primary me-3"></i>Familiale
+              sfeer
             </h5>
             <h5 class="mb-3">
               <i class="far fa-check-circle text-primary me-3"></i>Koude dranken
@@ -239,7 +237,9 @@
               <i class="far fa-check-circle text-primary me-3"></i>En nog veel
               meer!
             </h5>
-            <a class="btn btn-primary py-3 px-5 mt-3" href="">Meer info</a>
+            <a class="btn btn-primary py-3 px-5 mt-3" href="info.html"
+              >Meer info</a
+            >
           </div>
           <!-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
             <div class="img-border">
@@ -422,7 +422,6 @@
           data-wow-delay="0.1s"
         >
           <div class="col-lg-6">
-            <p><span class="text-primary me-2">#</span>Sfeerbeelden</p>
             <h1 class="display-5 mb-0">
               Vorige geslaagde edities van
               <span class="text-primary">Mazenzele</span> Kermis op beeld
@@ -436,13 +435,15 @@
                 <a
                   class="animal-item"
                   href="img/Mazel7.jpg"
-                  data-lightbox="animal"
+                  data-lightbox="foto"
                 >
                   <div class="position-relative">
                     <img class="img-fluid" src="img/Mazel7.jpg" alt="" />
                     <div class="animal-text p-4">
-                      <p class="text-white small text-uppercase mb-0">Animal</p>
-                      <h5 class="text-white mb-0">Elephant</h5>
+                      <p class="text-white small text-uppercase mb-0">
+                        Animatie
+                      </p>
+                      <h5 class="text-white mb-0">Kinderanimatie</h5>
                     </div>
                   </div>
                 </a>
@@ -451,13 +452,13 @@
                 <a
                   class="animal-item"
                   href="img/Mazel8.jpg"
-                  data-lightbox="animal"
+                  data-lightbox="foto"
                 >
                   <div class="position-relative">
                     <img class="img-fluid" src="img/Mazel8.jpg" alt="" />
                     <div class="animal-text p-4">
-                      <p class="text-white small text-uppercase mb-0">Animal</p>
-                      <h5 class="text-white mb-0">Elephant</h5>
+                      <p class="text-white small text-uppercase mb-0">Dieren</p>
+                      <h5 class="text-white mb-0">Diertentoonstellingen</h5>
                     </div>
                   </div>
                 </a>
@@ -470,13 +471,13 @@
                 <a
                   class="animal-item"
                   href="img/Mazel12.jpg"
-                  data-lightbox="animal"
+                  data-lightbox="foto"
                 >
                   <div class="position-relative">
                     <img class="img-fluid" src="img/Mazel12.jpg" alt="" />
                     <div class="animal-text p-4">
-                      <p class="text-white small text-uppercase mb-0">Animal</p>
-                      <h5 class="text-white mb-0">Elephant</h5>
+                      <p class="text-white small text-uppercase mb-0">Dieren</p>
+                      <h5 class="text-white mb-0">Shows</h5>
                     </div>
                   </div>
                 </a>
@@ -485,13 +486,15 @@
                 <a
                   class="animal-item"
                   href="img/Mazel10.jpg"
-                  data-lightbox="animal"
+                  data-lightbox="foto"
                 >
                   <div class="position-relative">
                     <img class="img-fluid" src="img/Mazel10.jpg" alt="" />
                     <div class="animal-text p-4">
-                      <p class="text-white small text-uppercase mb-0">Animal</p>
-                      <h5 class="text-white mb-0">Elephant</h5>
+                      <p class="text-white small text-uppercase mb-0">
+                        Nachtleven
+                      </p>
+                      <h5 class="text-white mb-0">Fuif</h5>
                     </div>
                   </div>
                 </a>
@@ -504,13 +507,15 @@
                 <a
                   class="animal-item"
                   href="img/Mazel11.jpg"
-                  data-lightbox="animal"
+                  data-lightbox="foto"
                 >
                   <div class="position-relative">
                     <img class="img-fluid" src="img/Mazel11.jpg" alt="" />
                     <div class="animal-text p-4">
-                      <p class="text-white small text-uppercase mb-0">Animal</p>
-                      <h5 class="text-white mb-0">Elephant</h5>
+                      <p class="text-white small text-uppercase mb-0">
+                        Nachtleven
+                      </p>
+                      <h5 class="text-white mb-0">Openluchtfuif</h5>
                     </div>
                   </div>
                 </a>
@@ -519,13 +524,13 @@
                 <a
                   class="animal-item"
                   href="img/Mazel9.jpg"
-                  data-lightbox="animal"
+                  data-lightbox="foto"
                 >
                   <div class="position-relative">
                     <img class="img-fluid" src="img/Mazel9.jpg" alt="" />
                     <div class="animal-text p-4">
-                      <p class="text-white small text-uppercase mb-0">Animal</p>
-                      <h5 class="text-white mb-0">Elephant</h5>
+                      <p class="text-white small text-uppercase mb-0">Muziek</p>
+                      <h5 class="text-white mb-0">Live concerten</h5>
                     </div>
                   </div>
                 </a>
@@ -763,43 +768,56 @@
             </p>
             <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>052 36 51 71</p>
             <p class="mb-2">
-              <i class="fa fa-envelope me-3"></i>info@example.com
+              <i class="fa fa-envelope me-3"></i>info.mazelkermis@gmail.com
             </p>
             <div class="d-flex pt-2">
-              <a class="btn btn-outline-light btn-social" href=""
+              <!-- <a class="btn btn-outline-light btn-social" href=""
                 ><i class="fab fa-twitter"></i
-              ></a>
-              <a class="btn btn-outline-light btn-social" href=""
+              ></a> -->
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://www.facebook.com/KermisMazenzele/?locale=nl_BE"
                 ><i class="fab fa-facebook-f"></i
               ></a>
-              <a class="btn btn-outline-light btn-social" href=""
-                ><i class="fab fa-youtube"></i
+              <a
+                class="btn btn-outline-light btn-social"
+                href="https://www.instagram.com/kermismazenzele/"
+                ><i class="fab fa-instagram"></i
               ></a>
-              <a class="btn btn-outline-light btn-social" href=""
+              <!--<a class="btn btn-outline-light btn-social" href=""
                 ><i class="fab fa-linkedin-in"></i
-              ></a>
+              ></a> -->
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <h5 class="text-light mb-4">Snelkoppelingen</h5>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
+            <a class="btn btn-link" href="index.html">Home</a>
+            <a class="btn btn-link" href="info.html">Informatie</a>
+            <a class="btn btn-link" href="sponsors.html">Sponsors</a>
+            <a class="btn btn-link" href="contact.html">Contact</a>
           </div>
           <div class="col-lg-3 col-md-6">
-            <h5 class="text-light mb-4">Gereletareede Websites</h5>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
+            <h5 class="text-light mb-4">Partners</h5>
+            <a
+              class="btn btn-link"
+              href="https://www.facebook.com/CafeDenBruinen/?locale=nl_NL"
+              >Café den Bruinen</a
+            >
+            <a class="btn btn-link" href="https://www.dekleinedeugd2020.be/"
+              >De Kleine Deugd</a
+            >
+            <!-- <a class="btn btn-link" href="">Our Services</a>
             <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
+            <a class="btn btn-link" href="">Support</a> -->
           </div>
           <div class="col-lg-3 col-md-6">
-            <h5 class="text-light mb-4">Deelnemen?</h5>
+            <h5 class="text-light mb-4">Deelnemen of sponsoren?</h5>
             <p>Stuur een mail naar</p>
-            <p><a href="mailto:">Mail</a></p>
+            <p>
+              <a href="mailto:info.mazelkermis@gmail.com"
+                >info.mazelkermis@gmail.com</a
+              >
+            </p>
             <div class="position-relative mx-auto" style="max-width: 400px">
               <!-- <input
                 class="form-control border-0 w-100 py-3 ps-4 pe-5"
